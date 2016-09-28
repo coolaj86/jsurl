@@ -1,0 +1,32 @@
+{
+  "name": "jsurl",
+  "version": "1.0.0",
+  "description": "A cURL clone written in node.js",
+  "main": "./lib/jsurl.js",
+  "bin": {
+    "jsurl": "./bin/jsurl.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolaj86/jsurl.git"
+  },
+  "keywords": [
+    "cURL",
+    "wget",
+    "request",
+    "http",
+    "https"
+  ],
+  "author": "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com/)",
+  "license": "(MIT OR Apache-2.0)",
+  "bugs": {
+    "url": "https://github.com/coolaj86/jsurl/issues"
+  },
+  "homepage": "https://github.com/coolaj86/jsurl#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
