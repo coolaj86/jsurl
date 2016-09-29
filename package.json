@@ -1,5 +1,5 @@
 {
-  "name": "jsurl",
+  "name": "jsurl-cli",
   "version": "1.0.0",
   "description": "A cURL clone written in node.js",
   "main": "./lib/jsurl.js",

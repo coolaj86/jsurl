@@ -4,7 +4,7 @@ jsURL
 A cURL clone written in node.js
 
 ```bash
-npm install -g jsurl
+npm install -g jsurl-cli
 ```
 
 ```bash
