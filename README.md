@@ -29,6 +29,13 @@ Options: (H) means HTTP/HTTPS only, (F) means FTP only
   -O --remote-name     Write output to a file named as the remote file
 ```
 
+What about all the other options?
+------------------
+
+Add one, pull request it, and I'll merge it in!
+
+Otherwise I'll just add them here and there as I begin to use jsURL in place of cURL and find that I need them.
+
 Why?
 ----
 
