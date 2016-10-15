@@ -25,6 +25,7 @@ program
   .option('-H --header <LINE>', 'Pass custom header LINE to server (H)', collectHeaders, [ ])
   .option('-o --output <FILE>', 'Write to FILE instead of stdout')
   .option('-O --remote-name', 'Write output to a file named as the remote file')
+  .option('-v --verbose', 'Make the operation more talkative')
   .parse(process.argv)
   ;
 
