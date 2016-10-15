@@ -27,6 +27,7 @@ Options: (H) means HTTP/HTTPS only, (F) means FTP only
   -H --header LINE     Pass custom header LINE to server (H)
   -o --output FILE     Write to FILE instead of stdout
   -O --remote-name     Write output to a file named as the remote file
+  -v --verbose         Make the operation more talkative
 ```
 
 What about all the other options?
