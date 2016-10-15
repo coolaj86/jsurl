@@ -22,6 +22,8 @@ Options: (H) means HTTP/HTTPS only, (F) means FTP only
   -h, --help           output usage information
   -V, --version        output the version number
 
+  -4 --ipv4            Resolve name to IPv4 address
+  -6 --ipv6            Resolve name to IPv6 address
   -k --insecure        Allow connections to SSL sites without certs (H)
   -X --request METHOD  Specify request method to use (GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD, etc)
   -H --header LINE     Pass custom header LINE to server (H)

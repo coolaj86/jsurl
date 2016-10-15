@@ -20,6 +20,8 @@ program
   .action(function (url) {
     program.url = url;
   })
+  .option('-4 --ipv4', 'Resolve name to IPv4 address')
+  .option('-6 --ipv6', 'Resolve name to IPv6 address')
   .option('-k --insecure', 'Allow connections to SSL sites without certs (H)')
   .option('-X --request <METHOD>', 'Specify request method to use (GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD, etc)')
   .option('-H --header <LINE>', 'Pass custom header LINE to server (H)', collectHeaders, [ ])
